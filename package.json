@@ -4,6 +4,7 @@
   "description": "test project",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/alexeyprokudin/test/issues"
   },
-  "homepage": "https://github.com/alexeyprokudin/test#readme"
+  "homepage": "https://github.com/alexeyprokudin/test#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "webpack": "^2.4.1"
+  }
 }
